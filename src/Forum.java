@@ -1,5 +1,4 @@
 public class Forum {
-
     private String idForum;
     private String topic;
     private int numberOfComments;
