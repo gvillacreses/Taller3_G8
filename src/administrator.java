@@ -1,4 +1,4 @@
-public class administrator extends User {
+public class Administrator extends User {
 
     public void createUserWithRole(String user, String password){
         //...
@@ -12,7 +12,7 @@ public class administrator extends User {
         //...
     }
 
-    public void assignResponsible(Curso curso, Teacher responsible){
+    public void assignResponsible(Course curso, Teacher responsible){
         //...
     }
 

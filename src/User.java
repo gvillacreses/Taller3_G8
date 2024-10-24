@@ -12,11 +12,14 @@ public class User {
         return true;
     }
 
+    //Getters
     public String getUser(){return this.user;}
     public String getPassword(){return this.password;}
     public String getName(){return this.name;}
     public String getLastName(){return this.lastName;}
 
+
+    //Setters
     public void setUser(String user){this.user = user;}
     public void setPassword(String password){this.password = password;}
     public void setName(String name){this.name = name;}
