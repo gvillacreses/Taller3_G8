@@ -1,9 +1,11 @@
+import java.util.ArrayList;
 public class User {
     protected String user;
     protected String password;
     protected String name;
     protected String lastName;
     private boolean loggedIn;
+    protected ArrayList<Incident> incidents = new ArrayList<>();
 
     public User(String user, String password){
         this.user = user;
@@ -33,6 +35,9 @@ public class User {
     public String getPassword(){return this.password;}
     public String getName(){return this.name;}
     public String getLastName(){return this.lastName;}
+    public ArrayList<Incident> getIncidents(){
+        return incidents;
+    }
 
 
     //Setters

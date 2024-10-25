@@ -1,3 +1,4 @@
+
 public class AcademicStaff extends User {
 
     public void reportError(String email, String content){
@@ -11,4 +12,5 @@ public class AcademicStaff extends User {
     public void commentInForum(Forum forum, String comment){
         //...
     }
+    
 }

@@ -10,6 +10,8 @@ public class Incident {
     protected List<String> updatesLog = new ArrayList<>();
     protected LocalDateTime closedDate;
     protected String type;
+    private User monitor;
+    private AcademicStaff beneficiary;
 
     //Getters
     public int getIdIncident(){return this.idIncident;}
@@ -20,6 +22,8 @@ public class Incident {
     public List<String> getUpdatesLog(){return this.updatesLog;}
     public LocalDateTime getClosedDate(){return this.closedDate;}
     public String getType(){return this.type;}
+    public User getMonitor(){return this.monitor;}
+    public AcademicStaff getBeneficiary(){return this.beneficiary;}
 
     //Setters
     public void setIdIncident(int idIncident){this.idIncident = idIncident;}
@@ -29,6 +33,8 @@ public class Incident {
     public void setDescription(String description){this.description = description;}
     public void setClosedDate(LocalDateTime closedDate){this.closedDate = closedDate;}
     public void setType(String type){this.type = type;}
+    public void setMonitor(User u){this.monitor=u;}
+    public void setBeneficiary(AcademicStaff as){this.beneficiary=as;}
 
     
 }

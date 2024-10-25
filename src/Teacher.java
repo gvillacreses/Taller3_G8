@@ -1,4 +1,9 @@
+
+import java.util.ArrayList;
 public class Teacher extends AcademicStaff {
+
+    private ArrayList<Course> ownedCourses = new ArrayList<>();
+    
 
     public void loadSummativeActivity(Course course, SummativeActivity SummativeActivity){
         //...
@@ -14,6 +19,9 @@ public class Teacher extends AcademicStaff {
 
     public void createNewForum(Forum forum){
         //...
+    }
+    public ArrayList<Course> getOwnedCourses(){
+        return ownedCourses;
     }
     
 }
