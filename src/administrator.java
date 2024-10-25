@@ -1,7 +1,7 @@
 public class Administrator extends User {
 
     public void createUserWithRole(String user, String password){
-        //...
+        User newUser = new User(user, password);
     }
 
     public void assignPermission(String user){
