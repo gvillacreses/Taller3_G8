@@ -16,5 +16,11 @@ public class Administrator extends User {
         //...
     }
 
+    public void solveManagementIssue(){
+        //..
+    }
+    public String sendNotification(){
+        return "";
+    };
 
 }

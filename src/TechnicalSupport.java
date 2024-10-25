@@ -11,4 +11,18 @@ public class TechnicalSupport extends User {
     public void referManagementIssue(User user){
         //...
     }
-}
+
+    public void requestFurtherInfo(User user){
+        // Si el problema no es técnico o de gestión
+        // ..
+    }
+
+    public void updateReport(){
+        //..
+    };
+    public String sendNotification(){
+        return "";
+    };
+
+
+}   
