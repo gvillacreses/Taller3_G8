@@ -7,13 +7,6 @@ public class User {
     private boolean loggedIn;
     protected ArrayList<Incident> incidents = new ArrayList<>();
 
-    public User(String user, String password){
-        this.user = user;
-        this.password = password;
-        name = null;
-        lastName = null;
-        loggedIn = true;
-    }
 
     protected boolean logIn(String password){
         if (this.password.equals(password)){

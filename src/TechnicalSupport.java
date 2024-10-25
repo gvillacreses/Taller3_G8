@@ -19,10 +19,11 @@ public class TechnicalSupport extends User {
 
     public void updateReport(){
         //..
-    };
+    }
+
     public String sendNotification(){
         return "";
-    };
+    }
 
 
 }   
